@@ -1,1 +1,59 @@
-css
+body{
+ background-color: #f3f3f3;
+ font-family: courier new;
+}
+
+
+a{
+  margin-left: 5%;
+  color: black;
+  text-decoration: none;
+  border: 1px solid white;
+  transition: all 300ms ease;
+}
+
+a:hover{
+  background-color: white;
+  color: #226694;
+}
+
+navM:hover{
+  background-color: white;
+  color: #226694;
+}
+
+h1{
+ background-color: black;
+ margin: 0px -300px 20px -300px;
+ padding: 20px 20px;
+ color: White;
+ Text-align: center;
+}
+
+.main-navWrapper{
+  background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jVhILry/abstract-computer-hacking-background-motion-graphic_htkjgfgn__F0011.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 150%;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-left: -10px;
+  overflow: hidden;
+}
+
+.links{
+  display: flex;
+  align: center;
+}
+
+.navL{
+  order: 1;
+}
+
+.navM{
+  order:2;
+}
+
+.navR{
+  order:3;
+}
