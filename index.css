@@ -1,5 +1,5 @@
 body {
-  background-color: #226694;
+  background-color: lightblue;
   font-family: courier new;
 }
 
@@ -51,6 +51,10 @@ h1 {
   padding: 3px 5px;
 }
 
+.links > div{
+  float:left;
+}
+
 .navL {
   order: 1;
 }
@@ -61,4 +65,10 @@ h1 {
 
 .navR {
   order: 3;
+}
+
+@media all and (max-width: 800px) {
+  .links {
+    column-count: 2;
+  }
 }
