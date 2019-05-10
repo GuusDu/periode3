@@ -72,3 +72,9 @@ h1 {
     column-count: 2;
   }
 }
+table{
+    border: 3px solid navy;
+	background-color: #ff0090;
+	border-radius: 10px;
+	font-family:"Comic Sans MS";
+} 
