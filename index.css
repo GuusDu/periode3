@@ -51,8 +51,8 @@ h1 {
   padding: 3px 5px;
 }
 
-.links > div{
-  float:left;
+.links>div {
+  float: left;
 }
 
 .navL {
@@ -72,9 +72,11 @@ h1 {
     column-count: 2;
   }
 }
-table{
-    border: 3px solid navy;
-	background-color: #ff0090;
-	border-radius: 10px;
-	font-family:courier new;
-} 
+
+table {
+  border: 3px solid navy;
+  margin: 1px solid navy;
+  background-color: #ff0090;
+  border-radius: 10px;
+  font-family: courier new;
+}
