@@ -80,3 +80,15 @@ table {
   border-radius: 10px;
   font-family: courier new;
 }
+th {
+	border: 3px solid navy;
+	background-color: #ff0090;
+	border-radius: 15px;
+	font-size: 14px;
+}
+td {
+	border: 3px solid navy;
+	background-color: #ff0090;
+	border-radius: 15px;
+	font-size: 14px;
+}
